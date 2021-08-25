@@ -72,24 +72,28 @@ class _SpeechScreenState extends State<SpeechScreen> {
                   "Confidence: ${(_confidence * 100.0).toStringAsFixed(1)}%")),
         ),
         floatingActionButtonLocation: FloatingActionButtonLocation.centerFloat,
-        floatingActionButton: AvatarGlow(
-          animate: _isListening,
-          glowColor: Theme.of(context).primaryColor,
-          endRadius: 95,
-          duration: const Duration(milliseconds: 10),
-          repeatPauseDuration: const Duration(milliseconds: 10),
-          repeat: true,
-          child: Container(
-            width: 100.0,
-            height: 100.0,
-            child: FloatingActionButton(
-              onPressed: _listen,
-              child: Icon(
-                _isListening ? Icons.mic : Icons.mic_none,
-                size: 50.0,
-                color: Colors.black,
+        floatingActionButton: Container(
+          width: 200,
+          height: 200,
+          child: AvatarGlow(
+            animate: _isListening,
+            glowColor: Colors.tealAccent,
+            endRadius: 150,
+            duration: const Duration(milliseconds: 1800),
+            repeatPauseDuration: const Duration(milliseconds: 200),
+            repeat: true,
+            child: Container(
+              width: 100,
+              height: 100.0,
+              child: FloatingActionButton(
+                onPressed: _listen,
+                child: Icon(
+                  _isListening ? Icons.mic : Icons.mic_none,
+                  size: 50.0,
+                  color: Colors.black54,
+                ),
+                backgroundColor: Colors.teal,
               ),
-              backgroundColor: Colors.teal,
             ),
           ),
         ),
