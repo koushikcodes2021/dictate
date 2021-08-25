@@ -1,16 +1,16 @@
 # dictate
 
-A new Flutter project.
+A simple speech recognition app created using Flutter which also predicts the confidence/accuracy of the transcription.
+## APK link
+https://drive.google.com/file/d/14Z6ehsS3BcO56kJu7U557hbjWurwc2cu/view?usp=sharing
 
-## Getting Started
+#App Screenshots
 
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
-
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+<table>
+  <tr>
+<td><img src= "https://user-images.githubusercontent.com/85097545/130879101-89a1e1c9-cd8d-4930-9200-ec501b356e41.jpeg"/>
+    </td>
+    <td><img src="https://user-images.githubusercontent.com/85097545/130879106-3bd01102-fad3-40cb-948d-a96ecf2e5097.jpeg"/>
+    </td>
+  </tr>
+ </table>
