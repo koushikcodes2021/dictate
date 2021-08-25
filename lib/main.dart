@@ -30,7 +30,6 @@ class SpeechScreen extends StatefulWidget {
 
 class _SpeechScreenState extends State<SpeechScreen> {
   double _confidence = 1.0;
-
   bool _isListening = false;
   stt.SpeechToText _speech;
   String _text = "Press the button and start speaking";
